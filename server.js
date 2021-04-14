@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // mongoose connection
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/google-books", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", {
     useNewUrlParser: true,
     useFindAndModify: false
 })
