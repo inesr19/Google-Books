@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
 import Content from "../../Content";
 import Jumbo from "../../Jumbotron";
@@ -15,7 +15,7 @@ function Search() {
                 <Form.Text className="text-muted">
                 Book
                 </Form.Text>
-                <Form.Control type="text" placeholder="Enter book title" />
+                <Form.Control name="title" type="text" placeholder="Enter book title" />
             </Form.Group>
             <Button variant="primary" type="submit">
                 Search
