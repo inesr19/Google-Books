@@ -12,7 +12,7 @@ function NavbarTab() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end">
                     <Nav.Link as={Link} to="/search">Search</Nav.Link>
-                    <Nav.Link as={Link} to="/save">Saved Books</Nav.Link>
+                    <Nav.Link as={Link} to="/saved">Saved Books</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
